@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<wsdl:definitions name="nodeForPsp" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:nfpsp="https://github.com/pasqualespica/pagopa-api-rg-poc/blob/main/nodeForPsp.xsd" xmlns:tns="https://github.com/pasqualespica/pagopa-api-rg-poc/blob/main/nodeForPsp.wsdl" targetNamespace="https://github.com/pasqualespica/pagopa-api-rg-poc/blob/main/nodeForPsp.wsdl">
+<wsdl:definitions name="nodeForPsp" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:nfpsp="https://raw.githubusercontent.com/pasqualespica/pagopa-api-rg-poc/main/nodeForPsp.xsd" xmlns:tns="https://raw.githubusercontent.com/pasqualespica/pagopa-api-rg-poc/main/nodeForPsp.wsdl" targetNamespace="https://raw.githubusercontent.com/pasqualespica/pagopa-api-rg-poc/main/nodeForPsp.wsdl">
 
   <wsdl:types>
     <xsd:schema version="1.0.0">
-      <xsd:import schemaLocation="nodeForPsp.xsd" namespace="https://github.com/pasqualespica/pagopa-api-rg-poc/blob/main/nodeForPsp.xsd" />
+      <xsd:import schemaLocation="nodeForPsp.xsd" namespace="https://raw.githubusercontent.com/pasqualespica/pagopa-api-rg-poc/main/nodeForPsp.xsd" />
     </xsd:schema>
   </wsdl:types>
 
